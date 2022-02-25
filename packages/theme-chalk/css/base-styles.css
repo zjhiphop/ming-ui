@@ -1,0 +1,13 @@
+@layer base {
+   b, strong {
+       @apply font-bold;
+   }
+
+   em {
+       @apply font-williamItalic;
+   }
+
+   p + p {
+       @apply mt-40; /*off*/
+   }
+}

@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ming-ui/components": [
+        "packages/components"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

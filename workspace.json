@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "components": "packages/components",
+    "docs": "packages/docs",
+    "playground": "packages/playground",
+    "theme-chalk": "packages/theme-chalk"
+  }
 }

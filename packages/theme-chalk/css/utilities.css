@@ -1,0 +1,26 @@
+@layer utilities {
+  @-webkit-keyframes marquee {
+    0% {
+      transform: translate(0%, 0);
+    }
+    /* 25% {
+      transform: translate(-25%, 0);
+    }
+    50% {
+      transform: translate(-50%, 0);
+    }
+    75% {
+      transform: translate(-75%, 0);
+    } */
+    100% {
+      transform: translate(-112%, 0);
+    }
+  }
+
+  .marquee {
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 6s linear infinite;
+  }
+
+}

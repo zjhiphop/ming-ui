@@ -1,7 +1,9 @@
 {
   "recommendations": [
-    
     "nrwl.angular-console",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "johnsoncodehk.volar",
+    "samatech.postcss-vue",
+    "firsttris.vscode-jest-runner"
   ]
 }
