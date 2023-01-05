@@ -5,8 +5,11 @@
 declare module 'vue' {
   export interface GlobalComponents {
     Alert: typeof import('./../components/src/lib/alert/Alert.vue')['default']
+    Colors: typeof import('./src/app/components/Colors.vue')['default']
+    'Colors copy': typeof import('./src/app/components/Colors copy.vue')['default']
     Cookies: typeof import('./src/app/components/Cookies.vue')['default']
     Logo: typeof import('./src/app/components/widgets/Logo.vue')['default']
+    Typings: typeof import('./src/app/components/Typings.vue')['default']
     Widget: typeof import('./../components/src/lib/Widget.vue')['default']
   }
 }

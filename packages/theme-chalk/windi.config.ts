@@ -34,10 +34,41 @@ export default defineConfig({
       sfpro: ['SF Pro Text'],
     },
     colors: {
-      red: '#E00000',
-      grey: '#D6D6D6',
-      dark: '#737373',
-      black: '#000000',
+      // brand
+      primary: '#114B5F',
+      primaryCta: 'rgba(17, 75, 95, 0.1)',
+      primaryTransparent: 'rgba(17, 75, 95, 0.1)',
+      recycleCta: '#70C9BF',
+      recycleCtaTransparent: 'rgba(112, 201, 191, 0.2)',
+      donate: '#2694B8',
+      donateTransparent: 'rgba(38, 148, 184, 0.15)',
+
+      // state
+      success: '#93D500',
+      danger: '#EE2722',
+      fair: '#F4AD42',
+      pressOverlay: 'rgba(37, 39, 44, 0.05)',
+      backgroundOverlay: 'rgba(0, 0, 0, 0.6)',
+      successTransparent: 'rgba(147, 213, 0, 0.15)',
+      dangerTransparent: 'rgba(238, 39, 34, 0.1)',
+      failTransparent: 'rgba(244, 173, 66, 0.15)',
+      hoverOverlayBlack4: 'rgba(27, 28, 31, 0.04)',
+      hoverOverlayBlack2: 'rgba(0, 0, 0, 0.02)',
+      hoverOverlayWhite60: 'rgba(255, 255, 255, 0.6)',
+      hoverOverlayWhite30: 'rgba(255, 255, 255, 0.3)',
+      hoverOverlayWhite12: 'rgba(255, 255, 255, 0.12)',
+
+      // dark
+      darkBlack: '#2D2F2D',
+      darkSecondary: '#4C5457',
+      darkTertiary: '#6D787B',
+      darkQuaternary: '#849296',
+
+      // light
+      lightWhite: '#FFFFFF',
+      lightSecondary: '#F2F5F6',
+      lightTertiary: '#CAD9DD',
+      lightQuaternary: '#B7C6CA',
     },
 
     letterSpacing: {

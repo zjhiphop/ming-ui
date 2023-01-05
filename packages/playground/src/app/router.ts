@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@app/views/Home.vue';
+import Components from '@app/views/Components.vue';
 
 declare module 'vue-router' {
   interface RouteMeta {
@@ -27,10 +28,16 @@ const router = createRouter({
   },
   routes: [
     {
-      path: '/',
+      path: '/home',
       name: 'Home',
       component: Home,
-      meta: { title: 'playground' },
+      meta: { title: 'Home' },
+    },
+    {
+      path: '/components',
+      name: 'Components',
+      component: Components,
+      meta: { title: 'Components' },
     },
   ],
 });

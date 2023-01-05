@@ -1,6 +1,6 @@
 <template>
   <div class="alert sm:bg-dark lg:bg-red">
-    This is alert component
+    This is alert components
   </div>
 </template>
 
@@ -8,5 +8,6 @@
 
 <style lang="postcss">
 .alert {
+
 }
 </style>
